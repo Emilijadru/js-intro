@@ -1,0 +1,7 @@
+npm install paketo-pavadinimas
+npm install pac1 pac2 pac3
+
+npm install --save-dev nodemon
+npm i --save-dev nodemon
+npm install -D nodeman
+npm i -D nodemon
