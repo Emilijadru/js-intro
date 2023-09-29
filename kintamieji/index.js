@@ -1,9 +1,15 @@
 /*
 Kintamieji
+
+Primityvus duomenu tipai:
 - number
-- string9 (tekstas)
+- string (tekstas)
 - boolean (true/false)
+- undefined
+- null
+
+Kompleksiniai duommenu tipai:
 - array (masyvas/ kolekcija/ sarasas / listas)
 - object (objektas)
-- 
+
 */
