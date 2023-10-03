@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "uzt:vardas": "nodemon ./uzt/vardas.js",
     "uzt:tarpai": "nodemon ./uzt/tarpai.js",
     "method:string": "nodemon ./method/string.js",
     "method:number": "nodemon ./method/number.js",
