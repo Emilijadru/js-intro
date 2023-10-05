@@ -37,3 +37,25 @@ console.log(`${n2} ** 2 = ${kvadratu(n2)}`);
 const pirmaRaide = zodis => zodis[0];
 
 console.log(pirmaRaide(5));
+
+const firstLetter5 = str =>  typeof str !== 'string'
+    ? 'Error: to be a string'
+    :str.length 
+    ? str[0]
+    : 'Error: non-empty string';
+console.log(firstLetter5(5));
+console.log(firstLetter5(''));
+console.log(firstLetter5('Labas'));
+
+const errors = {
+    nonString: 'Error: to be a string',
+    empty: 'Error: non=empty string'
+};
+const firstLetter6 = str =>  typeof str !== 'string'
+    ? errors.nonString
+    :str.length 
+    ? str[0]
+    : errors.empty;
+console.log(firstLetter6(5));
+console.log(firstLetter6(''));
+console.log(firstLetter6('Labas'));
