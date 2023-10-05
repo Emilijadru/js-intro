@@ -11,6 +11,7 @@
     "method:number": "nodemon ./method/number.js",
     "for": "nodemon ./ciklas/for.js",
     "if": "nodemon ./palyginimas/if.js",
+    "ternary": "nodemon ./palyginimas/ternary.js",
     "function": "nodemon ./funkcijos/function.js",
     "arrow": "nodemon ./funkcijos/arrow.js",
     "object": "nodemon ./kintamieji/object.js",

@@ -33,3 +33,7 @@ const kvadratu = a => a **2;
 console.log(`${n1} ** 2 = ${kvadratu(n1)}`);
 console.log(`${n2} ** 2 = ${kvadratu(n2)}`);
 
+// funkcija gauna zodi ir grazina pirma raide
+const pirmaRaide = zodis => zodis[0];
+
+console.log(pirmaRaide(5));
