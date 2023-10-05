@@ -51,4 +51,48 @@ console.log(abcJoin, typeof abcJoin);
 console.log(abcJoin2);
 console.clear();
 
+console.clear();
 
+const flowers = [];
+console.log(flowers);
+
+flowers.push('roze');  // prideda i sarasa
+console.log(flowers);
+
+flowers.push('tulpe');
+console.log(flowers);
+
+flowers.push('narcizas');
+console.log(flowers);
+
+flowers.pop();        // atima is saraso galo
+console.log(flowers);
+
+flowers.shift();    
+console.log(flowers);
+
+flowers.unshift('ruta');// prideda vel i sarasa
+console.log(flowers);
+
+console.clear();
+
+console.log(flowers);
+console.log(flowers.reverse());  // apvercia eiliskuma
+console.log(flowers.reverse());  // apvercia eiliskuma
+
+console.clear();
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numbers4 = numbers.slice(4);
+const numbers45 = numbers.slice(4, 5);  // nuo kur iki kur rodo is saraso skaicius, paskutinis nerodomas 5,7 -> 5,6
+const numbers46 = numbers.slice(4, 6);
+console.log(numbers4);
+console.log(numbers45);
+console.log(numbers46);
+
+console.log(numbers);
+
+numbers.splice(3, 1, 11); // nuo kur iki kur istrinti is saraso pvz(3,1)->istrine 4, (3,1,11) prirase 11 vietoj 4  
+console.log(numbers);
+
+console.clear();
