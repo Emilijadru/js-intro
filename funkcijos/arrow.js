@@ -49,7 +49,7 @@ console.log(firstLetter5('Labas'));
 
 const errors = {
     nonString: 'Error: to be a string',
-    empty: 'Error: non=empty string'
+    empty: 'Error: non-empty string'
 };
 const firstLetter6 = str =>  typeof str !== 'string'
     ? errors.nonString
@@ -59,3 +59,4 @@ const firstLetter6 = str =>  typeof str !== 'string'
 console.log(firstLetter6(5));
 console.log(firstLetter6(''));
 console.log(firstLetter6('Labas'));
+
