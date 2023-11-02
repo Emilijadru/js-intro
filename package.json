@@ -6,9 +6,13 @@
   "scripts": {
     "uzd:vardas": "nodemon ./uzd/vardas.js",
     "uzd:tarpai": "nodemon ./uzd/tarpai.js",
+    "uzd:pazymiai": "nodemon ./uzd/pazymiai.js",
+    "method:array-loops": "nodemon ./method/array-loops.js",
     "method:array": "nodemon ./method/array.js",
     "method:string": "nodemon ./method/string.js",
     "method:number": "nodemon ./method/number.js",
+    "array-loops": "nodemon ./ciklas/array-loops.js",
+    "object-loops": "nodemon ./ciklas/object-loops.js",
     "for": "nodemon ./ciklas/for.js",
     "if": "nodemon ./palyginimas/if.js",
     "ternary": "nodemon ./palyginimas/ternary.js",
