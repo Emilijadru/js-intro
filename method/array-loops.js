@@ -75,3 +75,71 @@ const goodMarksOnly2 = badMarks
 
 console.log(goodMarksOnly2);
 
+console.clear();
+
+const stringList = ['a', 'A', 'b', 'B', 'ab', 'AB', 'labas', 'rytas'];
+console.log(stringList);
+
+stringList.sort();
+console.log(stringList);
+
+const numberList = [10, 2, 8, 4, 20, 28];
+console.log(numberList);
+
+numberList.sort();
+console.log(numberList);
+
+numberList.sort((a, b) => a - b);
+console.log(numberList);
+
+console.clear();
+
+const family = [
+    {name: 'Jonas', age: 99},
+    {name: 'Maryte', age: 88},
+    {name: 'Ona', age: 66},
+    {name: 'Petras', age: 77},
+];
+console.log(family);
+
+family.sort();
+console.log(family);
+
+family.sort((a, b) => a.age - b.age);
+console.log(family);
+
+const names = [];
+
+for (const user of family) {
+    names.push(user.name);
+}
+
+console.log(names);
+
+const familyString = names.join(',') + '.';
+console.log(familyString);
+
+console.clear();
+
+const pazymiai = [10, 2, 8, 4, 6];
+console.log(pazymiai);
+
+let pazymiuSuma = 0;
+for (const pazymys of pazymiai) {
+    pazymiuSuma += pazymys;
+}
+
+const vidurkis = pazymiuSuma / pazymiai.length;
+
+console.log('Vidurkis', vidurkis);
+
+
+function redFunc(total, number) {
+    return total + number;
+}
+
+const reducedSuma = pazymiai.reduce(redFunc);
+console.log(reducedSuma);
+
+const reducedSuma2 = pazymiai.reduce((total, number) => total + number);
+console.log(reducedSuma2);
