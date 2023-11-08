@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "spread": "nodemon ./method/spread.js",
     "class-extends": "nodemon ./funkcijos/class-extends.js",
     "class": "nodemon ./funkcijos/class.js",
     "uzd:vardas": "nodemon ./uzd/vardas.js",
