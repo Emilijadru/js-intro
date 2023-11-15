@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "map": "nodemon ./ciklas/map.js",
+    "skaiciai": "nodemon ./uzd/skaiciai.js",
     "spread": "nodemon ./method/spread.js",
     "class-extends": "nodemon ./funkcijos/class-extends.js",
     "class": "nodemon ./funkcijos/class.js",
